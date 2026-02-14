@@ -14,22 +14,14 @@ API_URL = 'https://api.apiverve.com/v1/translator'
 
 def call_translator_api():
     """
-    Make a POST request to the Translator API
+    Make a GET request to the Translator API
     """
     try:
-        # Request body
-        request_body &#x3D; {
-    &#x27;text&#x27;: &#x27;I&#x27;m so excited that tomorrow is going to be sunny! Can&#x27;t wait!&#x27;,
-    &#x27;source&#x27;: &#x27;en&#x27;,
-    &#x27;target&#x27;: &#x27;es&#x27;
-}
-
         headers = {
-            'x-api-key': API_KEY,
-            'Content-Type': 'application/json'
+            'x-api-key': API_KEY
         }
 
-        response = requests.post(API_URL, headers=headers, json=request_body)
+        response = requests.get(API_URL, headers=headers)
 
         # Raise exception for HTTP errors
         response.raise_for_status()
