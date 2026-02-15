@@ -1,1 +1,3 @@
-from .apiClient import TranslatorAPIClient
+from .apiClient import TranslatorAPIClient, TranslatorAPIClientError
+
+__all__ = ['TranslatorAPIClient', 'TranslatorAPIClientError']
