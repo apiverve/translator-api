@@ -26,7 +26,7 @@ Add the dependency:
 
 ```gradle
 dependencies {
-    implementation 'com.github.apiverve:translator-api:1.1.13'
+    implementation 'com.github.apiverve:translator-api:1.1.14'
 }
 ```
 
@@ -47,9 +47,9 @@ TranslatorAPIClient client = new TranslatorAPIClient("YOUR_API_KEY");
 try {
     // Prepare request parameters
     Map<String, Object> parameters = new HashMap<>();
-    parameters.put("text", "");
-    parameters.put("target", "");
-    parameters.put("source", "");
+    parameters.put("text", "I'm so excited that tomorrow is going to be sunny! Can't wait!");
+    parameters.put("target", "es");
+    parameters.put("source", "en");
 
     // Execute the request
     APIResponse response = client.execute(parameters);
