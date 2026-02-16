@@ -44,7 +44,11 @@ from apiverve_translator.apiClient import TranslatorAPIClient
 # Initialize the client with your APIVerve API key
 api = TranslatorAPIClient("[YOUR_API_KEY]")
 
-query = { "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!", "source": "en", "target": "es" }
+query = {
+    "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!",
+    "source": "en",
+    "target": "es"
+}
 
 try:
     # Make the API call
@@ -82,7 +86,11 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```python
-query = { "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!", "source": "en", "target": "es" }
+query = {
+    "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!",
+    "source": "en",
+    "target": "es"
+}
 ```
 
 ###### Simple Request
@@ -122,7 +130,11 @@ from apiverve_translator.apiClient import TranslatorAPIClient, TranslatorAPIClie
 
 api = TranslatorAPIClient("[YOUR_API_KEY]")
 
-query = { "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!", "source": "en", "target": "es" }
+query = {
+    "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!",
+    "source": "en",
+    "target": "es"
+}
 
 try:
     result = api.execute(query)
@@ -143,7 +155,11 @@ from apiverve_translator.apiClient import TranslatorAPIClient, TranslatorAPIClie
 
 api = TranslatorAPIClient("[YOUR_API_KEY]")
 
-query = { "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!", "source": "en", "target": "es" }
+query = {
+    "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!",
+    "source": "en",
+    "target": "es"
+}
 
 try:
     result = api.execute(query)
@@ -177,7 +193,11 @@ The client supports the context manager protocol for automatic resource cleanup:
 ```python
 from apiverve_translator.apiClient import TranslatorAPIClient, TranslatorAPIClientError
 
-query = { "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!", "source": "en", "target": "es" }
+query = {
+    "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!",
+    "source": "en",
+    "target": "es"
+}
 
 # Using context manager ensures proper cleanup
 with TranslatorAPIClient("[YOUR_API_KEY]") as api:
@@ -203,7 +223,11 @@ from apiverve_translator.apiClient import TranslatorAPIClient
 # Enable debug mode
 api = TranslatorAPIClient("[YOUR_API_KEY]", debug=True)
 
-query = { "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!", "source": "en", "target": "es" }
+query = {
+    "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!",
+    "source": "en",
+    "target": "es"
+}
 
 # Debug information will be printed to console
 result = api.execute(query)
@@ -218,8 +242,13 @@ from apiverve_translator.apiClient import TranslatorAPIClient
 
 api = TranslatorAPIClient("[YOUR_API_KEY]")
 
+query = {
+    "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!",
+    "source": "en",
+    "target": "es"
+}
+
 try:
-    query = { "text": "I'm so excited that tomorrow is going to be sunny! Can't wait!", "source": "en", "target": "es" }
     result = api.execute(query)
     print(result)
 finally:
