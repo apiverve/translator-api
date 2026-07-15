@@ -64,7 +64,9 @@ paths:
                   description: The text to translate
                 target:
                   type: string
-                  description: The language code to translate the text to (e.g., fr)
+                  description: >-
+                    The language code to translate the text to (e.g., fr, es,
+                    de)
                 source:
                   type: string
                   description: >-
