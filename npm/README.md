@@ -130,7 +130,7 @@ async function makeRequest() {
   "data": {
     "sourceLang": "en",
     "targetLang": "es",
-    "translatedText": "¡Estoy tan emocionada porque mañana hará sol! ¡No puedo esperar!"
+    "translatedText": "¡Qué emoción que mañana hará sol! ¡Qué ganas!"
   }
 }
 ```
