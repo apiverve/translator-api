@@ -17,7 +17,7 @@ namespace APIVerve.API.Translator
         public string Text { get; set; }
 
         /// <summary>
-        /// The language code to translate the text to (e.g., fr)
+        /// The language code to translate the text to (e.g., fr, es, de)
         /// </summary>
         [JsonProperty("target")]
         public string Target { get; set; }
