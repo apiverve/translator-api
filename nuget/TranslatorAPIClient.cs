@@ -67,8 +67,8 @@ namespace APIVerve.API.Translator
         /// <summary>Validation rules for parameters</summary>
         private static readonly Dictionary<string, ValidationRule> _validationRules = new Dictionary<string, ValidationRule>
         {
-            { "text", new ValidationRule { Type = "string", Required = true } },
-            { "target", new ValidationRule { Type = "string", Required = true } },
+            { "text", new ValidationRule { Type = "string", Required = true, MaxLength = 50000 } },
+            { "target", new ValidationRule { Type = "string", Required = true, MaxLength = 10 } },
             { "source", new ValidationRule { Type = "string", Required = false } }
         };
 
