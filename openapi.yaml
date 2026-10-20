@@ -2,8 +2,10 @@ openapi: 3.0.4
 info:
   title: Translator
   description: >-
-    Translator is a simple tool for translating text. It returns the translated
-    text.
+    Translator is a language translation API that translates written text into
+    target languages using standard language codes. Submit any string with a
+    target language code to receive the translated text and the confirmed or
+    auto-detected source language.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +20,7 @@ servers:
 paths:
   /v1/translator:
     post:
-      summary: Translate Text
+      summary: Translator
       description: Translate text from one language to another
       operationId: translator
       parameters: []
