@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/translator",
-  "version": "1.2.0",
-  "description": "Translator is a simple tool for translating text. It returns the translated text.",
+  "version": "1.2.2",
+  "description": "Translator is a language translation API that translates written text into target languages using standard language codes. Submit any string with a target language code to receive the translated text and the confirmed or auto-detected source language.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "translator", "translation", "translate", "text translation", "language translation"
+    "translation api", "translator api", "language translation api", "ai translation api", "translate api"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/translator-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/translator?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/translator?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",

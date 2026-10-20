@@ -30,7 +30,7 @@ class translatorWrapper {
         this.baseURL = 'https://api.apiverve.com/v1/translator';
 
         // Validation rules for parameters (generated from schema)
-        this.validationRules = {"text":{"type":"string","required":true},"target":{"type":"string","required":true},"source":{"type":"string","required":false}};
+        this.validationRules = {"text":{"type":"string","required":true,"maxLength":50000},"target":{"type":"string","required":true,"maxLength":10},"source":{"type":"string","required":false}};
     }
 
     /**
