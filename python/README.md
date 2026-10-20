@@ -1,13 +1,12 @@
 Translator API
 ============
 
-Translator is a simple tool for translating text. It returns the translated text.
+Translator is a language translation API that translates written text into target languages using standard language codes. Submit any string with a target language code to receive the translated text and the confirmed or auto-detected source language.
 
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
-![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [Translator API](https://apiverve.com/marketplace/translator?utm_source=pypi&utm_medium=readme)
+[![PyPI version](https://img.shields.io/pypi/v/apiverve-translator.svg)](https://pypi.org/project/apiverve-translator/)
+
+This is a Python wrapper for the [Translator API](https://apiverve.com/marketplace/translator?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -29,8 +28,8 @@ pip3 install apiverve-translator
 
 ## Configuration
 
-Before using the translator API client, you have to setup your account and obtain your API Key.
-You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=readme)
+Before using the Translator API client, you have to setup your account and obtain your API Key.
+You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -64,7 +63,7 @@ except Exception as e:
 
 ## Usage
 
-The Translator API documentation is found here: [https://docs.apiverve.com/ref/translator](https://docs.apiverve.com/ref/translator?utm_source=pypi&utm_medium=readme).
+The Translator API documentation is found here: [https://docs.apiverve.com/ref/translator](https://docs.apiverve.com/ref/translator?utm_source=pypi&utm_medium=referral&utm_content=readme).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -112,7 +111,7 @@ print(result)
   "data": {
     "sourceLang": "en",
     "targetLang": "es",
-    "translatedText": "¡Estoy tan emocionada porque mañana hará sol! ¡No puedo esperar!"
+    "translatedText": "¡Qué emoción que mañana hará sol! ¡Qué ganas!"
   }
 }
 ```
@@ -260,7 +259,7 @@ finally:
 
 ## Customer Support
 
-Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=readme).
+Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=referral&utm_content=readme).
 
 ---
 
@@ -271,12 +270,12 @@ Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Tw
 
 ## Legal
 
-All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=readme) and all legal documents and agreements.
+All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=referral&utm_content=readme) and all legal documents and agreements.
 
 ---
 
 ## License
-Licensed under the The MIT License (MIT)
+Licensed under the MIT License (MIT)
 
 Copyright (&copy;) 2026 APIVerve, and EvlarSoft LLC
 
