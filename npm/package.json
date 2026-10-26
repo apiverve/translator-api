@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/translator",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Translator is a language translation API that translates written text into target languages using standard language codes. Submit any string with a target language code to receive the translated text and the confirmed or auto-detected source language.",
   "main": "index.js",
   "types": "index.d.ts",
