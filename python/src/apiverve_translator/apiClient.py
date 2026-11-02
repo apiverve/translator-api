@@ -26,7 +26,8 @@ class TranslatorAPIClient:
     VALIDATION_RULES = {
         "text": {"type": "string", "required": True, "maxLength": 50000},
         "target": {"type": "string", "required": True, "maxLength": 10},
-        "source": {"type": "string", "required": False}
+        "source": {"type": "string", "required": False},
+        "format": {"type": "string", "required": False, "default": "text"}
     }
 
     # Format validation patterns
