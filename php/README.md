@@ -1,6 +1,6 @@
 # Translator API - PHP Package
 
-Translator is a language translation API that translates written text into target languages using standard language codes. Submit any string with a target language code to receive the translated text and the confirmed or auto-detected source language.
+Translator is a language translation API that translates plain text or HTML into target languages using standard language codes. Submit any string with a target language code to receive the translated text, both language names, and the confirmed or auto-detected source language.
 
 ## Installation
 
@@ -75,7 +75,12 @@ $client = new Client(
   "data": {
     "sourceLang": "en",
     "targetLang": "es",
-    "translatedText": "¡Qué emoción que mañana hará sol! ¡Qué ganas!"
+    "translatedText": "¡Estoy tan emocionada de que mañana vaya a hacer sol! ¡Qué ganas tengo!",
+    "sourceLangName": "English",
+    "targetLangName": "Spanish",
+    "sourceDetected": false,
+    "format": "text",
+    "characterCount": 62
   }
 }
 ```
