@@ -28,6 +28,11 @@ declare module '@apiverve/translator' {
       sourceLang:     null | string;
       targetLang:     null | string;
       translatedText: null | string;
+      sourceLangName: null | string;
+      targetLangName: null | string;
+      sourceDetected: boolean | null;
+      format:         null | string;
+      characterCount: number | null;
   }
 
   export default class translatorWrapper {
