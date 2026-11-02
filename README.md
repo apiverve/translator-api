@@ -1,6 +1,6 @@
 # [Translator API](https://apiverve.com/marketplace/translator?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Translator is a language translation API that translates written text into target languages using standard language codes. Submit any string with a target language code to receive the translated text and the confirmed or auto-detected source language.
+Translator is a language translation API that translates plain text or HTML into target languages using standard language codes. Submit any string with a target language code to receive the translated text, both language names, and the confirmed or auto-detected source language.
 
 The Translator API provides a simple, reliable way to integrate translator functionality into your applications. Built for developers who need production-ready translator capabilities without the complexity of building from scratch.
 
@@ -223,7 +223,12 @@ A real response from the Translator API:
   "data": {
     "sourceLang": "en",
     "targetLang": "es",
-    "translatedText": "¡Qué emoción que mañana hará sol! ¡Qué ganas!"
+    "translatedText": "¡Estoy tan emocionada de que mañana vaya a hacer sol! ¡Qué ganas tengo!",
+    "sourceLangName": "English",
+    "targetLangName": "Spanish",
+    "sourceDetected": false,
+    "format": "text",
+    "characterCount": 62
   }
 }
 ```
