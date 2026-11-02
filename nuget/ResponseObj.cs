@@ -40,6 +40,21 @@ namespace APIVerve.API.Translator
 
         [JsonProperty("translatedText")]
         public string TranslatedText { get; set; }
+
+        [JsonProperty("sourceLangName")]
+        public string SourceLangName { get; set; }
+
+        [JsonProperty("targetLangName")]
+        public string TargetLangName { get; set; }
+
+        [JsonProperty("sourceDetected")]
+        public bool? SourceDetected { get; set; }
+
+        [JsonProperty("format")]
+        public string Format { get; set; }
+
+        [JsonProperty("characterCount")]
+        public long? CharacterCount { get; set; }
     }
 
     public partial class Premium

@@ -27,5 +27,11 @@ namespace APIVerve.API.Translator
         /// </summary>
         [JsonProperty("source")]
         public string Source { get; set; }
+
+        /// <summary>
+        /// text (default) or html. With html, markup and entities are kept and only the text between tags is translated
+        /// </summary>
+        [JsonProperty("format")]
+        public string Format { get; set; }
     }
 }

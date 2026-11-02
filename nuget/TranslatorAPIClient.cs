@@ -69,7 +69,8 @@ namespace APIVerve.API.Translator
         {
             { "text", new ValidationRule { Type = "string", Required = true, MaxLength = 50000 } },
             { "target", new ValidationRule { Type = "string", Required = true, MaxLength = 10 } },
-            { "source", new ValidationRule { Type = "string", Required = false } }
+            { "source", new ValidationRule { Type = "string", Required = false } },
+            { "format", new ValidationRule { Type = "string", Required = false } }
         };
 
         /// <summary>Format validation patterns</summary>
