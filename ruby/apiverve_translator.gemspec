@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "apiverve_translator"
-  spec.version       = "1.2.3"
+  spec.version       = "1.2.4"
   spec.authors       = ["APIVerve"]
   spec.email         = ["hello@apiverve.com"]
 
   spec.summary       = "Translator API - Ruby Client"
-  spec.description   = "Translator is a language translation API that translates written text into target languages using standard language codes. Submit any string with a target language code to receive the translated text and the confirmed or auto-detected source language."
+  spec.description   = "Translator is a language translation API that translates plain text or HTML into target languages using standard language codes. Submit any string with a target language code to receive the translated text, both language names, and the confirmed or auto-detected source language."
   spec.homepage      = "https://apiverve.com/marketplace/translator?utm_source=ruby&utm_medium=referral&utm_content=homepage"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
