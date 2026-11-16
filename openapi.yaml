@@ -84,8 +84,10 @@ paths:
                 format:
                   type: string
                   description: >-
-                    text (default) or html. With html, markup and entities are
-                    kept and only the text between tags is translated
+                    text (default) or html. With html, tags and attributes are
+                    kept and only the text between tags is translated; entities
+                    such as &amp; are decoded and may be translated as words.
+                    Any other value returns 400
               required:
                 - text
                 - target
