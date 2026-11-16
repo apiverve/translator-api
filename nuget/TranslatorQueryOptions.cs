@@ -29,7 +29,7 @@ namespace APIVerve.API.Translator
         public string Source { get; set; }
 
         /// <summary>
-        /// text (default) or html. With html, markup and entities are kept and only the text between tags is translated
+        /// text (default) or html. With html, tags and attributes are kept and only the text between tags is translated; entities such as &amp; are decoded and may be translated as words. Any other value returns 400
         /// </summary>
         [JsonProperty("format")]
         public string Format { get; set; }
